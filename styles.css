@@ -328,8 +328,13 @@ button {
 .desktop-nav {
   display: block;
   margin: 0 auto;
-  padding: 1.7rem 0;
+  padding: 1.2rem 0;
   border-bottom: 1px solid var(--clr-secondary);
+}
+@media (min-width: 47.06em) {
+  .desktop-nav {
+    padding: 1.7rem 0;
+  }
 }
 
 .nav-list {
